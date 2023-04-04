@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dados do Servidor</title>
+    <title>Exercício PHP</title>
 </head>
 <body>
-    <h1>Dados do Servidor</h1>
-    
+    <h1>Exemplo PHP</h1>
     <?php
-        //Esse comando interno revela os dados do servidor, no qual o php está rodando.
-        phpinfo();
+        date_default_timezone_set("America/Sao_Paulo"); // GMT -3
+        echo "Hoje é dia " . date("d/m/Y");
+        echo " e a hora atual é " . date("G:i:s T");
     ?>
 </body>
-</html> 
+</html>

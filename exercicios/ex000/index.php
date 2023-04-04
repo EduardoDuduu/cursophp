@@ -9,7 +9,9 @@
 <body>
     <h1>
         <?php
-        echo "Olá, Mundo! \u{1F30e}"; 
+            /* <?php ?> <- Essa tag serve para iniciar um código no php*/
+
+            echo "Olá, Mundo! \u{1F30e}"; 
         ?>
     </h1>
 
