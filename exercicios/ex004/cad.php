@@ -13,9 +13,10 @@
     </header>
     <main>
         <?php
+            // $_REQUEST = $_GET + $_POST + $_COOKIS;
             $name = $_GET["nome"] ?? "sem nome";
             $sname = $_GET["sobrenome"] ?? "sem sobrenome";
-            echo "É um prazer te conhever <strong>$name $sname</strong>. Boas vindas ao meu site!"
+            echo "<p>É um prazer te conhever <strong>$name $sname</strong>. Boas vindas ao meu site!</p>"
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para a página anterior</a></p>
     </main>
