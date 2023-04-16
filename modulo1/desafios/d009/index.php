@@ -41,14 +41,11 @@
     <section>
         <h2>Cálculo das Médias</h2>
         
-        <?php 
-            echo "
-            <p>Analizando os valores $valor1 e $valor2 :</p>
+        <?="<p>Analizando os valores $valor1 e $valor2 :</p>
             <ul>
                 <li>A <strong>Média Aritimética Simples</strong> entre os valores é igual a ". number_format($mas, 2, ",", ".") ."</li>
                 <li>A <strong>Média Aritimética Ponderada</strong> com pesos $peso1 e $peso2 é igual a ". number_format($map, 2, ",", ".") ."</li>
-            </ul>
-            ";
+            </ul>"
         ?>
     </section>
 </body>
