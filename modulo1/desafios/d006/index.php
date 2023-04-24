@@ -15,7 +15,7 @@
         $quociente = intdiv($dividendo, $divisor);
 
     ?>
-    <main>
+    <section>
         <h1>Anatomia de uma Divisão</h1>
         <form action="<?= $_SERVER['PHP_SELF']?>" method="get">
         <label for="dividendo">Dividendo</label>
@@ -24,7 +24,7 @@
         <input type="number" name="divisor" id="divisor" placeholder="Digite um número!">
         <input type="submit" value="Analisar">
         </form>
-    </main>
+    </section>
 
     <section>
         <h2>Estrutura da Divisão</h2>       
